@@ -6,7 +6,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
 
-import Rectangle from './../../../../../../../src/js/path1/path2/path3/path4/path5/Rectangle';
+import Rectangle from './Rectangle';
 
 describe('<Rectangle>', () => {
     jsdom();
