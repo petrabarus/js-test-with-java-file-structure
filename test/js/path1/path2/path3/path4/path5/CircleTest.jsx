@@ -6,13 +6,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-dom/test-utils';
 
-import Rectangle from './../../../../../../../src/js/path1/path2/path3/path4/path5/Rectangle';
+import Circle from './../../../../../../../src/js/path1/path2/path3/path4/path5/Circle';
 
-describe('<Rectangle>', () => {
+describe('<Circle>', () => {
     jsdom();
     it('Should show content', () => {
         let instance = ReactTestUtils.renderIntoDocument(
-            <Rectangle></Rectangle>
+            <Circle></Circle>
         );
         assert.ok(ReactTestUtils.findRenderedDOMComponentWithTag(instance, 'h1'));
     });
